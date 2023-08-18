@@ -13,7 +13,7 @@ function App() {
    <Content/>
    <Footer/>
    <MsgBox
-      text='React & React Native'
+      text='React & React Native HIHI'
       color='blue'
       bgColor='#ccc'
       fontSize='18pt'
