@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from './banner'
 import { Calculator2 } from './calculator'
 import {EventData2} from './event-data'
-
+import {Table} from './event-data'
 // function App() {
   
 //   return (
@@ -39,7 +39,11 @@ import {EventData2} from './event-data'
 //    return <Calculator2/>
 // }
 
-export default function App() {
-   return <EventData2/> 
-   }
+// export default function App() {
+//    return <EventData2/> 
+//    }
+
+   export default function App() {
+      return <Table/> 
+      }
    
