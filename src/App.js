@@ -1,10 +1,7 @@
 import React from 'react'
 import Banner from './banner'
-import { Calculator2 } from './calculator';
-import { Header, Content, Footer} from './func-components'
-import Calendar from './class-components';
-import MsgBox from './class-props';
-import MsgBox2 from './func-props';
+import { Calculator2 } from './calculator'
+import {EventData2} from './event-data'
 
 // function App() {
   
@@ -38,6 +35,11 @@ import MsgBox2 from './func-props';
 //    return <Banner/>
 // }
 
-export default function App(){
-   return <Calculator2/>
-}
+// export default function App(){
+//    return <Calculator2/>
+// }
+
+export default function App() {
+   return <EventData2/> 
+   }
+   
