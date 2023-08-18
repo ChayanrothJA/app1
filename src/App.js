@@ -1,5 +1,6 @@
 import React from 'react'
-import Banner from './banner';
+import Banner from './banner'
+import { Calculator2 } from './calculator';
 import { Header, Content, Footer} from './func-components'
 import Calendar from './class-components';
 import MsgBox from './class-props';
@@ -33,6 +34,10 @@ import MsgBox2 from './func-props';
 //   )
 // }
 
+// export default function App(){
+//    return <Banner/>
+// }
+
 export default function App(){
-   return <Banner/>
+   return <Calculator2/>
 }
