@@ -1,10 +1,13 @@
+// import React from 'react'
+// import Banner from './banner'
+// import { Calculator2 } from './calculator'
+// import {EventData2} from './event-data'
+// import {Table} from './event-data'
 import React from 'react'
-import Banner from './banner'
-import { Calculator2 } from './calculator'
-import {EventData2} from './event-data'
-import {Table} from './event-data'
+import RefsFunc from './refs-func'
+
+
 // function App() {
-  
 //   return (
 //    <>
 //    <Header/>
@@ -25,7 +28,6 @@ import {Table} from './event-data'
 //       fontSize='18pt'
 //       border='solid 1px black'
 //    />
-  
 //    </>
 
 //   )
@@ -43,7 +45,11 @@ import {Table} from './event-data'
 //    return <EventData2/> 
 //    }
 
-   export default function App() {
-      return <Table/> 
-      }
+// export default function App() {
+//    return <Table/> 
+//    }
+
+export default function App() {
+   return <RefsFunc/> 
+   }
    
