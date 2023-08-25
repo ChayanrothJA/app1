@@ -1,11 +1,20 @@
+import React from 'react'
+import RefsFunc from './refs-func'
+import RefsArray from './refs-array'
+
+
+
 // import React from 'react'
 // import Banner from './banner'
 // import { Calculator2 } from './calculator'
 // import {EventData2} from './event-data'
 // import {Table} from './event-data'
-import React from 'react'
-import RefsFunc from './refs-func'
 
+
+
+export default function App() {
+   return  <RefsArray/>  
+   }
 
 // function App() {
 //   return (
@@ -49,7 +58,3 @@ import RefsFunc from './refs-func'
 //    return <Table/> 
 //    }
 
-export default function App() {
-   return <RefsFunc/> 
-   }
-   
