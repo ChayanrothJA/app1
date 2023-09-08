@@ -1,9 +1,9 @@
 import React from 'react'
+import {userContext} from './context'
+import Header from './context-header'
+
 // import RefsFunc from './refs-func'
 // import RefsArray from './refs-array'
-import MessageBox from './state-func'
-
-
 // import React from 'react'
 // import Banner from './banner'
 // import { Calculator2 } from './calculator'
@@ -13,7 +13,11 @@ import MessageBox from './state-func'
 
 
 export default function App() {
-   return  <MessageBox/>  
+   return (
+   <userContext.Provider value={'Tom Jerry'}>
+   <Header/>
+   </userContext.Provider>
+   ) 
    }
 
 // function App() {
