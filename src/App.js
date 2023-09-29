@@ -1,6 +1,7 @@
 import React from 'react'
 import FormSearch from './form-search';
 import FormText from './from-text';
+import FormCheck from './form-check';
 
 // import React from 'react'
 // import { BrowserRouter, Link } from 'react-router-dom'
@@ -14,7 +15,7 @@ import FormText from './from-text';
 
 
 export default function App() {
-return <FormText/>
+return <FormCheck/>
 }
 // export default function App() {
   
