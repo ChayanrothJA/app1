@@ -1,26 +1,33 @@
 import React from 'react'
-import { BrowserRouter, Link } from 'react-router-dom'
-import Router1 from "./router1";
-import Router2 from "./router2";
-import Router3 from './router3';
-import Home from './home';
-import Product from './product';
-import Member from './member';
-import Contact from './contact';
+import FormSearch from './form-search';
+import FormText from './from-text';
+
+// import React from 'react'
+// import { BrowserRouter, Link } from 'react-router-dom'
+// import Router1 from "./router1";
+// import Router2 from "./router2";
+// import Router3 from './router3';
+// import Home from './home';
+// import Product from './product';
+// import Member from './member';
+// import Contact from './contact';
 
 
 export default function App() {
+return <FormText/>
+}
+// export default function App() {
   
-   return (
-      <>
-         <Router3/>
+//    return (
+//       <>
+//          <Router3/>
          
 
-      </>
-   )
+//       </>
+//    )
 
 
-}
+// }
 
 
 
