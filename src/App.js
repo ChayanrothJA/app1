@@ -1,6 +1,4 @@
-import React from 'react'
-import FormSearch from './form-search';
-import FormText from './from-text';
+import React from 'react';
 import FormCheck from './form-check';
 
 // import React from 'react'

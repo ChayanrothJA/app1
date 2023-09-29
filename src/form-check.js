@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 export default function FormCheck() {
-    const switchReq = React.useRef;
+    const switchReq = React.useRef()
     const style = ['bold','italic','underline']
     const sizes = ['small','medium','large','larger']
     let checkedStyles = []
@@ -40,8 +40,8 @@ export default function FormCheck() {
 
 }
     return (
-        <div className="mt-4 mx-auto p3 rounded"
-            style = {{width:'450px', background:'#cee'}}>
+        <div className="mt-4 mx-auto p-3 rounded"
+            style = {{ width:'450px' , background:'#cee' }}>
         <form>
             <span>font style:</span>&nbsp;&nbsp;
             {
