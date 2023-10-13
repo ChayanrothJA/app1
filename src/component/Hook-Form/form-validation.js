@@ -1,11 +1,11 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';  // Importing the useForm hook
+import { useForm } from 'react-hook-form'; // Importing the useForm hook
 
 export default function FormValidation() {
     const cats = [['100', 'ไอที'], ['200', 'เครื่องจักรกล'], ['300', 'เคมีภัณฑ์']];
     const opts = ['Option 1', 'Option 2', 'Option 3'];
     const inputFile = React.createRef();
-    const { register, handleSubmit, formState: { errors } } = useForm();  // Using useForm hook
+    const { register, handleSubmit, formState: { errors } } = useForm();  
 
     const onSubmitForm = (event) => {
         let maxNumFiles = 3
@@ -19,14 +19,14 @@ export default function FormValidation() {
 
     for (let file of inputFile.current.files) {
         if (file.size > maxSize * 1000) {
-          alert(`ขนาดไฟล์ไม่เกิน (${maxSize} KB)`);
+          alert(`ขนาดของเเต่ละไฟล์ไม่เกิน (${maxSize} KB)`);
           event.preventDefault();
           return;
         }
       }  
     
     }
-  // Continue with form submission if all checks passed
+
     const err = {
         fontSize: 'smaller',
         color: 'red'
@@ -38,7 +38,7 @@ export default function FormValidation() {
 
     <form onSubmit={handleSubmit(onSubmitForm)}>
         <div className="form-group mb-3">
-            <label htmlFor="cats" className="YourClassNameHere">หมวดหมู่ *</label>
+            <label htmlFor="cats" className="form-select">หมวดหมู่ *</label>
             <select id="cats" className="form-select form-select-sm">
       {
         cats.map(item => {
@@ -106,17 +106,3 @@ export default function FormValidation() {
     </div>
     )
 }
-
-
-  
-
-//   <button type="submit" className="btn btn-primary">Submit</button>
-// </form>
-
-
-
-// </div>
-//   );
-  
-// }
-    
